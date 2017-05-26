@@ -16,6 +16,24 @@
 		841887881ED7D9CF00970C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841887861ED7D9CF00970C75 /* LaunchScreen.storyboard */; };
 		841887931ED7D9CF00970C75 /* FMPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887921ED7D9CF00970C75 /* FMPickerTests.m */; };
 		8418879E1ED7D9CF00970C75 /* FMPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8418879D1ED7D9CF00970C75 /* FMPickerUITests.m */; };
+		841887BC1ED8005300970C75 /* area.plist in Resources */ = {isa = PBXBuildFile; fileRef = 841887AC1ED8005300970C75 /* area.plist */; };
+		841887BD1ED8005300970C75 /* NSCalendar+STPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887AF1ED8005300970C75 /* NSCalendar+STPicker.m */; };
+		841887BE1ED8005300970C75 /* STPickerArea.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887B11ED8005300970C75 /* STPickerArea.m */; };
+		841887BF1ED8005300970C75 /* STPickerDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887B31ED8005300970C75 /* STPickerDate.m */; };
+		841887C01ED8005300970C75 /* STPickerSingle.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887B51ED8005300970C75 /* STPickerSingle.m */; };
+		841887C11ED8005300970C75 /* STPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887B71ED8005300970C75 /* STPickerView.m */; };
+		841887C21ED8005300970C75 /* STPickerViewUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887B91ED8005300970C75 /* STPickerViewUI.m */; };
+		841887C31ED8005300970C75 /* UIView+STPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887BB1ED8005300970C75 /* UIView+STPicker.m */; };
+		841887C61ED8011000970C75 /* Control.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887C51ED8011000970C75 /* Control.m */; };
+		841887E01ED8022200970C75 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887CA1ED8022200970C75 /* MASCompositeConstraint.m */; };
+		841887E11ED8022200970C75 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887CD1ED8022200970C75 /* MASConstraint.m */; };
+		841887E21ED8022200970C75 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887CF1ED8022200970C75 /* MASConstraintMaker.m */; };
+		841887E31ED8022200970C75 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887D11ED8022200970C75 /* MASLayoutConstraint.m */; };
+		841887E41ED8022200970C75 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887D51ED8022200970C75 /* MASViewAttribute.m */; };
+		841887E51ED8022200970C75 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887D71ED8022200970C75 /* MASViewConstraint.m */; };
+		841887E61ED8022200970C75 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887D91ED8022200970C75 /* NSArray+MASAdditions.m */; };
+		841887E71ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887DC1ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		841887E81ED8022200970C75 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 841887DE1ED8022200970C75 /* View+MASAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +71,47 @@
 		841887991ED7D9CF00970C75 /* FMPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FMPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8418879D1ED7D9CF00970C75 /* FMPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMPickerUITests.m; sourceTree = "<group>"; };
 		8418879F1ED7D9CF00970C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841887AC1ED8005300970C75 /* area.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = area.plist; sourceTree = "<group>"; };
+		841887AE1ED8005300970C75 /* NSCalendar+STPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+STPicker.h"; sourceTree = "<group>"; };
+		841887AF1ED8005300970C75 /* NSCalendar+STPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+STPicker.m"; sourceTree = "<group>"; };
+		841887B01ED8005300970C75 /* STPickerArea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerArea.h; sourceTree = "<group>"; };
+		841887B11ED8005300970C75 /* STPickerArea.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerArea.m; sourceTree = "<group>"; };
+		841887B21ED8005300970C75 /* STPickerDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerDate.h; sourceTree = "<group>"; };
+		841887B31ED8005300970C75 /* STPickerDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerDate.m; sourceTree = "<group>"; };
+		841887B41ED8005300970C75 /* STPickerSingle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerSingle.h; sourceTree = "<group>"; };
+		841887B51ED8005300970C75 /* STPickerSingle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerSingle.m; sourceTree = "<group>"; };
+		841887B61ED8005300970C75 /* STPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerView.h; sourceTree = "<group>"; };
+		841887B71ED8005300970C75 /* STPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerView.m; sourceTree = "<group>"; };
+		841887B81ED8005300970C75 /* STPickerViewUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPickerViewUI.h; sourceTree = "<group>"; };
+		841887B91ED8005300970C75 /* STPickerViewUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPickerViewUI.m; sourceTree = "<group>"; };
+		841887BA1ED8005300970C75 /* UIView+STPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STPicker.h"; sourceTree = "<group>"; };
+		841887BB1ED8005300970C75 /* UIView+STPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STPicker.m"; sourceTree = "<group>"; };
+		841887C41ED8011000970C75 /* Control.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Control.h; sourceTree = "<group>"; };
+		841887C51ED8011000970C75 /* Control.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Control.m; sourceTree = "<group>"; };
+		841887C91ED8022200970C75 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		841887CA1ED8022200970C75 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		841887CB1ED8022200970C75 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		841887CC1ED8022200970C75 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		841887CD1ED8022200970C75 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		841887CE1ED8022200970C75 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		841887CF1ED8022200970C75 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		841887D01ED8022200970C75 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		841887D11ED8022200970C75 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		841887D21ED8022200970C75 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		841887D31ED8022200970C75 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		841887D41ED8022200970C75 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		841887D51ED8022200970C75 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		841887D61ED8022200970C75 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		841887D71ED8022200970C75 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		841887D81ED8022200970C75 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		841887D91ED8022200970C75 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		841887DA1ED8022200970C75 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		841887DB1ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		841887DC1ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		841887DD1ED8022200970C75 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		841887DE1ED8022200970C75 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		841887DF1ED8022200970C75 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		841887E91ED8023500970C75 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,10 +162,15 @@
 		841887741ED7D9CF00970C75 /* FMPicker */ = {
 			isa = PBXGroup;
 			children = (
+				841887C71ED8022200970C75 /* Des */,
+				841887AB1ED8005300970C75 /* Resource */,
+				841887AD1ED8005300970C75 /* STPickerView */,
 				841887781ED7D9CF00970C75 /* AppDelegate.h */,
 				841887791ED7D9CF00970C75 /* AppDelegate.m */,
 				8418877B1ED7D9CF00970C75 /* ViewController.h */,
 				8418877C1ED7D9CF00970C75 /* ViewController.m */,
+				841887C41ED8011000970C75 /* Control.h */,
+				841887C51ED8011000970C75 /* Control.m */,
 				8418877E1ED7D9CF00970C75 /* Main.storyboard */,
 				841887841ED7D9CF00970C75 /* Assets.xcassets */,
 				841887861ED7D9CF00970C75 /* LaunchScreen.storyboard */,
@@ -121,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				841887761ED7D9CF00970C75 /* main.m */,
+				841887E91ED8023500970C75 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -141,6 +206,73 @@
 				8418879F1ED7D9CF00970C75 /* Info.plist */,
 			);
 			path = FMPickerUITests;
+			sourceTree = "<group>";
+		};
+		841887AB1ED8005300970C75 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				841887AC1ED8005300970C75 /* area.plist */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		841887AD1ED8005300970C75 /* STPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				841887AE1ED8005300970C75 /* NSCalendar+STPicker.h */,
+				841887AF1ED8005300970C75 /* NSCalendar+STPicker.m */,
+				841887B01ED8005300970C75 /* STPickerArea.h */,
+				841887B11ED8005300970C75 /* STPickerArea.m */,
+				841887B21ED8005300970C75 /* STPickerDate.h */,
+				841887B31ED8005300970C75 /* STPickerDate.m */,
+				841887B41ED8005300970C75 /* STPickerSingle.h */,
+				841887B51ED8005300970C75 /* STPickerSingle.m */,
+				841887B61ED8005300970C75 /* STPickerView.h */,
+				841887B71ED8005300970C75 /* STPickerView.m */,
+				841887B81ED8005300970C75 /* STPickerViewUI.h */,
+				841887B91ED8005300970C75 /* STPickerViewUI.m */,
+				841887BA1ED8005300970C75 /* UIView+STPicker.h */,
+				841887BB1ED8005300970C75 /* UIView+STPicker.m */,
+			);
+			path = STPickerView;
+			sourceTree = "<group>";
+		};
+		841887C71ED8022200970C75 /* Des */ = {
+			isa = PBXGroup;
+			children = (
+				841887C81ED8022200970C75 /* Masonry */,
+			);
+			path = Des;
+			sourceTree = "<group>";
+		};
+		841887C81ED8022200970C75 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				841887C91ED8022200970C75 /* MASCompositeConstraint.h */,
+				841887CA1ED8022200970C75 /* MASCompositeConstraint.m */,
+				841887CB1ED8022200970C75 /* MASConstraint+Private.h */,
+				841887CC1ED8022200970C75 /* MASConstraint.h */,
+				841887CD1ED8022200970C75 /* MASConstraint.m */,
+				841887CE1ED8022200970C75 /* MASConstraintMaker.h */,
+				841887CF1ED8022200970C75 /* MASConstraintMaker.m */,
+				841887D01ED8022200970C75 /* MASLayoutConstraint.h */,
+				841887D11ED8022200970C75 /* MASLayoutConstraint.m */,
+				841887D21ED8022200970C75 /* Masonry.h */,
+				841887D31ED8022200970C75 /* MASUtilities.h */,
+				841887D41ED8022200970C75 /* MASViewAttribute.h */,
+				841887D51ED8022200970C75 /* MASViewAttribute.m */,
+				841887D61ED8022200970C75 /* MASViewConstraint.h */,
+				841887D71ED8022200970C75 /* MASViewConstraint.m */,
+				841887D81ED8022200970C75 /* NSArray+MASAdditions.h */,
+				841887D91ED8022200970C75 /* NSArray+MASAdditions.m */,
+				841887DA1ED8022200970C75 /* NSArray+MASShorthandAdditions.h */,
+				841887DB1ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				841887DC1ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				841887DD1ED8022200970C75 /* View+MASAdditions.h */,
+				841887DE1ED8022200970C75 /* View+MASAdditions.m */,
+				841887DF1ED8022200970C75 /* View+MASShorthandAdditions.h */,
+			);
+			path = Masonry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841887881ED7D9CF00970C75 /* LaunchScreen.storyboard in Resources */,
+				841887BC1ED8005300970C75 /* area.plist in Resources */,
 				841887851ED7D9CF00970C75 /* Assets.xcassets in Resources */,
 				841887801ED7D9CF00970C75 /* Main.storyboard in Resources */,
 			);
@@ -279,10 +412,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841887C31ED8005300970C75 /* UIView+STPicker.m in Sources */,
+				841887E61ED8022200970C75 /* NSArray+MASAdditions.m in Sources */,
+				841887C61ED8011000970C75 /* Control.m in Sources */,
+				841887E71ED8022200970C75 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				841887BD1ED8005300970C75 /* NSCalendar+STPicker.m in Sources */,
 				8418877D1ED7D9CF00970C75 /* ViewController.m in Sources */,
+				841887E41ED8022200970C75 /* MASViewAttribute.m in Sources */,
+				841887E31ED8022200970C75 /* MASLayoutConstraint.m in Sources */,
+				841887E01ED8022200970C75 /* MASCompositeConstraint.m in Sources */,
+				841887C01ED8005300970C75 /* STPickerSingle.m in Sources */,
 				8418877A1ED7D9CF00970C75 /* AppDelegate.m in Sources */,
+				841887E51ED8022200970C75 /* MASViewConstraint.m in Sources */,
 				841887831ED7D9CF00970C75 /* FMPicker.xcdatamodeld in Sources */,
 				841887771ED7D9CF00970C75 /* main.m in Sources */,
+				841887BE1ED8005300970C75 /* STPickerArea.m in Sources */,
+				841887C11ED8005300970C75 /* STPickerView.m in Sources */,
+				841887E21ED8022200970C75 /* MASConstraintMaker.m in Sources */,
+				841887BF1ED8005300970C75 /* STPickerDate.m in Sources */,
+				841887E11ED8022200970C75 /* MASConstraint.m in Sources */,
+				841887C21ED8005300970C75 /* STPickerViewUI.m in Sources */,
+				841887E81ED8022200970C75 /* View+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +582,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FMPicker/PrefixHeader.pch;
 				INFOPLIST_FILE = FMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +597,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 538CZ4N2AQ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = FMPicker/PrefixHeader.pch;
 				INFOPLIST_FILE = FMPicker/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemian.FMPicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";

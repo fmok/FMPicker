@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, strong) UITextField *textArea;
+@property (nonatomic, strong) UITextField *textSingle;
+@property (nonatomic, strong) UITextField *textDate;
 
 @end
 
